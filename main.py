@@ -39,7 +39,7 @@ if podtytul_podsumowanie:
     if akapit_podsumowanie:
         lista_pokarmow = akapit_podsumowanie.find_next_sibling('ul')
 
-with open('strona.md', 'w', encoding='utf-8') as file:
+with open('index.md', 'w', encoding='utf-8') as file:
     file.write('# ' + page_title + '\n')
     file.write(akapit_wstep.text + '\n')
     file.write('## ' + "Dieta" + '\n')

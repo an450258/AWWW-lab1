@@ -1,0 +1,14 @@
+# Co jedzą szczury? – Lab Rescue
+Szczury często określa się mianem zwierząt wszystkożernych. Rzeczywiście, lista produktów, które mogą jeść jest długa, ale nie oznacza to, że można im podać wszystko. Podstawę szczurzej diety powinny stanowić zboża, bogate w węglowodany. Ponadto karma musi zawierać niewielką ilość białka i tłuszczu. Niektóre produkty są jednak całkowicie zakazane. Dowiedz się więcej na temat tego, co jedzą szczury!
+## Dieta
+* **Zboża**– można podawać szczurom w naturalnej formie, nieprzetworzone, ewentualnie gotowane bez dodatku przypraw.
+* **Kaszki, kleiki i „gerberki”** – polecane są tylko w żywieniu starszych lub chorych szczurów, ewentualnie jeśli szczur ma problem ze spożywaniem zwykłej karmy.
+* **Warzywa**– szczurki mogą je jeść codziennie, gdyż warzywa zawierają mnóstwo cennych witamin, mikro- i makroelementów.
+* **Owoce** – można podawać szczurom jako smakołyki (w niezbyt dużych ilościach ze względu na wysoką zawartość cukru).
+* **Orzechy, nasiona, pestki** (np. dyni, słonecznika) – szczury chętnie je jedzą, ale produkty te nie powinny być im serwowane zbyt często, gdyż są tuczące.
+* **Zioła**– jako dodatek w żywieniu szczurów można zastosować np. mniszek lekarski, pokrzywę, rumianek, krwawnik, liście malin, liście czarnej porzeczki, liście brzozy, babkę lancetowatą lub szerokolistną, lucernę, jeżówkę, pierwiosnek lekarski, nagietek, chaber bławatek, melisę, miętę pieprzową, tymianek, kwiaty koniczyny łąkowej, skrzyp polny (tylko suszony i w niewielkich ilościach).
+* **Gałązki drzew** – jako materiał do ścierania zębów, mogą to być gałązki wierzby, brzozy, lipy, jabłoni.
+* **Mięso** – szczury jedzą też mięso, co jednak ważne – nie może ono być smażone ani pieczone w oleju. Można podawać im raz na jakiś czas mięso drobiowe ugotowane, bez żadnych przypraw. Wystarczą jednak dodatki do karmy w formie suszonych ryb lub owadów, np. larw jedwabnika, mącznika czy świerszczy.
+* **Jajka** – można je podawać szczurom w formie ugotowanej, ale tylko raz na jakiś czas.
+* **Produkty mleczne** – nie są polecane dla szczurów ze względu na problemy z trawieniem laktozy.
+* **Miód i pyłek kwiatowy** – można je stosować jako środek na podniesienie odporności, np. na początku infekcji, w celu podtuczenia szczura lub do podawania niesmacznych leków. Warto wiedzieć jednak, że miód podawany w zaawansowanym stadium przeziębienia może pogorszyć stan zapalny, ponieważ cukier staje się pożywką dla bakterii. Miód jest bardzo kaloryczny, więc należy go stosować wyjątkowo i w małych ilościach.
