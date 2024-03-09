@@ -1,4 +1,8 @@
 # Co jedzą szczury? – Lab Rescue
+Źródło: https://labrescue.pl/porady/szczury/co-jedza-szczury/
+
+![[Image]](https://labrescue.pl/wp-content/uploads/2023/06/Grafiki-na-strone-1.webp)
+
 Szczury często określa się mianem zwierząt wszystkożernych. Rzeczywiście, lista produktów, które mogą jeść jest długa, ale nie oznacza to, że można im podać wszystko. Podstawę szczurzej diety powinny stanowić zboża, bogate w węglowodany. Ponadto karma musi zawierać niewielką ilość białka i tłuszczu. Niektóre produkty są jednak całkowicie zakazane. Dowiedz się więcej na temat tego, co jedzą szczury!
 
 ## Dieta

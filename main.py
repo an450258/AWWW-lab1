@@ -20,7 +20,10 @@ with open('strona_labrescue.html', 'r') as file:
 soup = BeautifulSoup(html_page, 'html.parser')
 
 # Odczytanie tytułu strony
-page_title = soup.title.string
+page_title = soup.title
+
+# Odczytanie grafiki
+image = 'https://labrescue.pl/wp-content/uploads/2023/06/Grafiki-na-strone-1.webp'
 
 # Odczytanie nagłówków h2
 headers_h2 = soup.find_all('h2')
@@ -49,7 +52,9 @@ if podtytul_dieta:
         lista_pokarmow = akapit_podsumowanie.find_next_sibling('ul')
 
 with open('index.md', 'w', encoding='utf-8') as file:
-    file.write('# ' + page_title + '\n')
+    file.write('# ' + page_title.string + '\n')
+    file.write("Źródło: " + link + '\n\n')
+    file.write("![[Image]](" + image + ")\n\n")
     file.write(akapit_wstep.text + '\n')
     file.write('\n' + '## ' + "Dieta" + '\n')
     if lista_pokarmow:
@@ -65,5 +70,3 @@ with open('index.md', 'w', encoding='utf-8') as file:
         lista_zakazanych.pop(0)
         for el in lista_zakazanych:
             file.write('* ' + el.text + '\n')
-
-print(podtytul_zakazane.text)
