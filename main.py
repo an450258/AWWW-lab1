@@ -24,8 +24,8 @@ page_title = soup.title.string
 
 # Odczytanie nagłówków h2
 headers_h2 = soup.find_all('h2')
-for el in headers_h2:
-    print(el.string)
+#for el in headers_h2:
+#    print(el.string)
 #    for url in search(el.string, stop=10):
 #        print(url)
 
@@ -61,6 +61,7 @@ with open('index.md', 'w', encoding='utf-8') as file:
     file.write('## ' + podtytul_zakazane.text + '\n')
     file.write(akapit_zakazane.text + '\n')
     if lista_zakazanych:
-        for el in lista_pokarmow.find_all('li'):
-            file.write('*' + el.text + '\n')
-
+        lista_zakazanych = lista_zakazanych.find_all('li')
+        lista_zakazanych.pop(0)
+        for el in lista_zakazanych:
+            file.write('* ' + el.text + '\n')
