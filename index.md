@@ -1,5 +1,6 @@
 # Co jedzą szczury? – Lab Rescue
 Szczury często określa się mianem zwierząt wszystkożernych. Rzeczywiście, lista produktów, które mogą jeść jest długa, ale nie oznacza to, że można im podać wszystko. Podstawę szczurzej diety powinny stanowić zboża, bogate w węglowodany. Ponadto karma musi zawierać niewielką ilość białka i tłuszczu. Niektóre produkty są jednak całkowicie zakazane. Dowiedz się więcej na temat tego, co jedzą szczury!
+
 ## Dieta
 * **Zboża**– można podawać szczurom w naturalnej formie, nieprzetworzone, ewentualnie gotowane bez dodatku przypraw.
 * **Kaszki, kleiki i „gerberki”** – polecane są tylko w żywieniu starszych lub chorych szczurów, ewentualnie jeśli szczur ma problem ze spożywaniem zwykłej karmy.
@@ -12,6 +13,7 @@ Szczury często określa się mianem zwierząt wszystkożernych. Rzeczywiście, 
 * **Jajka** – można je podawać szczurom w formie ugotowanej, ale tylko raz na jakiś czas.
 * **Produkty mleczne** – nie są polecane dla szczurów ze względu na problemy z trawieniem laktozy.
 * **Miód i pyłek kwiatowy** – można je stosować jako środek na podniesienie odporności, np. na początku infekcji, w celu podtuczenia szczura lub do podawania niesmacznych leków. Warto wiedzieć jednak, że miód podawany w zaawansowanym stadium przeziębienia może pogorszyć stan zapalny, ponieważ cukier staje się pożywką dla bakterii. Miód jest bardzo kaloryczny, więc należy go stosować wyjątkowo i w małych ilościach.
+
 ## Czego nie mogą jeść szczury?
 Na liście produktów, których zdecydowanie nie należy podawać szczurom, znajdują się przede wszystkim:
 * przyprawy,

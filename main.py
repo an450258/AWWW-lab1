@@ -51,17 +51,19 @@ if podtytul_dieta:
 with open('index.md', 'w', encoding='utf-8') as file:
     file.write('# ' + page_title + '\n')
     file.write(akapit_wstep.text + '\n')
-    file.write('## ' + "Dieta" + '\n')
+    file.write('\n' + '## ' + "Dieta" + '\n')
     if lista_pokarmow:
         for el in lista_pokarmow.find_all('li'):
             tag = el.find('strong')
             if tag:
                 file.write('* **' + tag.text.strip() + '**')
                 file.write(el.text.replace(tag.text, '') + '\n')
-    file.write('## ' + podtytul_zakazane.text + '\n')
-    file.write(akapit_zakazane.text + '\n')
+    file.write('\n' + '## ' + podtytul_zakazane.text + '\n')
+    file.write(akapit_zakazane.text.strip() + '\n')
     if lista_zakazanych:
         lista_zakazanych = lista_zakazanych.find_all('li')
         lista_zakazanych.pop(0)
         for el in lista_zakazanych:
             file.write('* ' + el.text + '\n')
+
+print(podtytul_zakazane.text)
