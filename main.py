@@ -1,72 +1,109 @@
 from bs4 import BeautifulSoup
 import requests
-from googlesearch import search
+from duckduckgo_search import DDGS
 
 link = 'https://labrescue.pl/porady/szczury/co-jedza-szczury/'
+image = 'https://labrescue.pl/wp-content/uploads/2023/06/Grafiki-na-strone-1.webp'
 
-# Pobieranie strony z linku
-response = requests.get(link)
 
-# Zapisywanie strony do pliku strona_labrescue.html
-if response.status_code == 200:
+def read_page(url):
+    # Pobieranie strony z linku
+    response = requests.get(link)
+
+    # Zapisywanie strony do pliku strona_labrescue.html
     with open('strona_labrescue.html', 'w') as file:
         file.write(response.text)
 
-# Wczytywanie zawartości strony HTML
-with open('strona_labrescue.html', 'r') as file:
-    html_page = file.read()
-
-# Utworzenie obiektu BeautifulSoup
-soup = BeautifulSoup(html_page, 'html.parser')
-
-# Odczytanie tytułu strony
-page_title = soup.title
-
-# Odczytanie grafiki
-image = 'https://labrescue.pl/wp-content/uploads/2023/06/Grafiki-na-strone-1.webp'
-
-# Odczytanie nagłówków h2
-headers_h2 = soup.find_all('h2')
-#for el in headers_h2:
-#    print(el.string)
-#    for url in search(el.string, stop=10):
-#        print(url)
-
-# Odczytanie pierwszego akapitu strony
-akapit_wstep = soup.find('div', class_='entry-content').find('span')
+    # Wczytywanie zawartości strony HTML
+    with open('strona_labrescue.html', 'r') as file:
+        return file.read()
 
 
-# Odczytanie przedostatniego akapitu strony
-podtytul_zakazane = soup.find('h2', string = headers_h2[-2].string)
-if podtytul_zakazane:
-    akapit_zakazane = podtytul_zakazane.find_next_sibling('p')
-    if akapit_zakazane:
-        lista_zakazanych = akapit_zakazane.find_next_sibling('ul')
+def md_link(tag):
+    return "[" + tag.text.strip() + "]" + "(" + tag.text.replace(" ","") + ".html)"
 
 
-# Odczytanie ostatniego akapitu strony
-podtytul_dieta = soup.find('h2', string = headers_h2[-1].string)
-if podtytul_dieta:
-    akapit_podsumowanie = podtytul_dieta.find_next_sibling('p')
-    if akapit_podsumowanie:
-        lista_pokarmow = akapit_podsumowanie.find_next_sibling('ul')
+def md_h1_title(text):
+    return '# ' + text + '\n'
 
-with open('index.md', 'w', encoding='utf-8') as file:
-    file.write('# ' + page_title.string + '\n')
-    file.write("Źródło: " + link + '\n\n')
-    file.write("![[Image]](" + image + ")\n\n")
-    file.write(akapit_wstep.text + '\n')
-    file.write('\n' + '## ' + "Dieta" + '\n')
-    if lista_pokarmow:
-        for el in lista_pokarmow.find_all('li'):
+
+def md_h2_title(text):
+    return '## ' + text + '\n'
+
+
+def md_image(img):
+    return "![[Image not loaded]](" + img + ")\n\n"
+
+
+def md_source(source):
+    return "Źródło: [" + source + "](" + source + ")\n\n"
+
+
+def create_duckduckgo_subpage(tag):
+    with open(tag.text.replace(" ","") + ".md", 'w', encoding='utf-8') as file:
+
+        file.write(md_h1_title(tag.text))
+        tag_image = DDGS().images(tag.text, max_results=1)[0]
+        file.write(md_image(tag_image['image']))
+        file.write(md_source(tag_image['url']))
+
+
+def create_main_page(first_title, first_paragraph, first_list, second_title, second_paragraph, second_list):
+    with open('index.md', 'w', encoding='utf-8') as file:
+
+        file.write(md_h1_title(first_title.string))
+
+        file.write(md_source(link))
+
+        file.write(md_image(image))
+
+        file.write(first_paragraph.text + '\n')
+
+        file.write('\n' + md_h2_title("Dieta"))
+        for el in first_list.find_all('li'):
             tag = el.find('strong')
-            if tag:
-                file.write('* **' + tag.text.strip() + '**')
-                file.write(el.text.replace(tag.text, '') + '\n')
-    file.write('\n' + '## ' + podtytul_zakazane.text + '\n')
-    file.write(akapit_zakazane.text.strip() + '\n')
-    if lista_zakazanych:
-        lista_zakazanych = lista_zakazanych.find_all('li')
-        lista_zakazanych.pop(0)
-        for el in lista_zakazanych:
+            file.write('* **' + md_link(tag) + '**')
+            file.write(el.text.replace(tag.text, '') + '\n')
+            create_duckduckgo_subpage(tag)
+
+        file.write('\n' + md_h1_title(second_title.text))
+        file.write(second_paragraph.text.strip() + '\n')
+        second_list = second_list.find_all('li')
+        second_list.pop(0)
+        for el in second_list:
             file.write('* ' + el.text + '\n')
+
+
+if __name__ == "__main__":
+    html_page = read_page(link)
+
+    # Utworzenie obiektu BeautifulSoup
+    soup = BeautifulSoup(html_page, 'html.parser')
+
+    # Odczytanie tytułu strony
+    page_title = soup.title
+
+    # Odczytanie nagłówków h2
+    headers_h2 = soup.find_all('h2')
+
+    # Odczytanie pierwszego akapitu strony
+    akapit_wstep = soup.find('div', class_='entry-content').find('span')
+
+    # Odczytanie przedostatniego akapitu strony
+    podtytul_zakazane = soup.find('h2', string=headers_h2[-2].string)
+    if podtytul_zakazane:
+        akapit_zakazane = podtytul_zakazane.find_next_sibling('p')
+        if akapit_zakazane:
+            lista_zakazane = akapit_zakazane.find_next_sibling('ul')
+
+    # Odczytanie ostatniego akapitu strony
+    podtytul_dieta = soup.find('h2', string=headers_h2[-1].string)
+    if podtytul_dieta:
+        akapit_dieta = podtytul_dieta.find_next_sibling('p')
+        if akapit_dieta:
+            lista_dieta = akapit_dieta.find_next_sibling('ul')
+
+    # Utworzenie pliku z główną stroną
+    create_main_page(podtytul_dieta, akapit_dieta, lista_dieta, podtytul_zakazane, akapit_zakazane, lista_zakazane)
+
+
