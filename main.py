@@ -20,7 +20,7 @@ def read_page(url):
 
 
 def md_link(tag):
-    return "[" + tag.text.strip() + "]" + "(" + tag.text.replace(" ","") + ".html)"
+    return "[" + tag.strip() + "]" + "(" + tag.replace(" ","") + ".html)\n\n"
 
 
 def md_h1_title(text):
@@ -39,6 +39,15 @@ def md_source(source):
     return "Źródło: [" + source + "](" + source + ")\n\n"
 
 
+# Wyniki wyszukiwania z dodaniem frazy "extra"
+def save_search_result(file, tag, extra):
+    tag_extra = DDGS().text(tag.text + extra, max_results=3)
+    file.write(md_h2_title(tag.text + " - " + extra))
+    for el in tag_extra:
+        file.write("* " + el['title'] + '\n')
+        file.write(md_link(el['href']))
+
+
 def create_duckduckgo_subpage(tag):
     with open(tag.text.replace(" ","") + ".md", 'w', encoding='utf-8') as file:
 
@@ -46,6 +55,10 @@ def create_duckduckgo_subpage(tag):
         tag_image = DDGS().images(tag.text, max_results=1)[0]
         file.write(md_image(tag_image['image']))
         file.write(md_source(tag_image['url']))
+
+        save_search_result(file, tag, "gryzonie")
+        save_search_result(file, tag, "zdrowie")
+        save_search_result(file, tag, "zakupy")
 
 
 def create_main_page(first_title, first_paragraph, first_list, second_title, second_paragraph, second_list):
@@ -62,7 +75,7 @@ def create_main_page(first_title, first_paragraph, first_list, second_title, sec
         file.write('\n' + md_h2_title("Dieta"))
         for el in first_list.find_all('li'):
             tag = el.find('strong')
-            file.write('* **' + md_link(tag) + '**')
+            file.write('* **' + md_link(tag.text) + '**')
             file.write(el.text.replace(tag.text, '') + '\n')
             create_duckduckgo_subpage(tag)
 
