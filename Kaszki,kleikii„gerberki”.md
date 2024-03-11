@@ -4,32 +4,30 @@
 Źródło: [https://kliknijwzdrowie.pl/kaszki-dla-dzieci-i-mleczne-deserki-w-gerber-organic/](https://kliknijwzdrowie.pl/kaszki-dla-dzieci-i-mleczne-deserki-w-gerber-organic/)
 
 ## Kaszki, kleiki i „gerberki” - gryzonie
-* Kleki - Paint Tool
-[https://kleki.com/?bg=4A9FDC](https://kleki.com/?bg=4A9FDC.html)
+* Co jedzą szczury? - Lab Rescue
+[https://labrescue.pl/porady/szczury/co-jedza-szczury/](https://labrescue.pl/porady/szczury/co-jedza-szczury/.html)
 
-* Keiko Kasza - Wikipedia
-[https://en.wikipedia.org/wiki/Keiko_Kasza](https://en.wikipedia.org/wiki/Keiko_Kasza.html)
-
-* Kasza: Ancient Grains In Polish Cuisine - Polana Polish Food Online
-[https://www.polana.com/blogs/blog/kasza-ancient-grains-in-polish-cuisine](https://www.polana.com/blogs/blog/kasza-ancient-grains-in-polish-cuisine.html)
+* Silly Goose's Big Story by Keiko Kasza: 9781101644195 ...
+[https://www.penguinrandomhouse.com/books/307999/silly-gooses-big-story-by-keiko-kasza-illustrated-by-keiko-kasza/](https://www.penguinrandomhouse.com/books/307999/silly-gooses-big-story-by-keiko-kasza-illustrated-by-keiko-kasza/.html)
 
 ## Kaszki, kleiki i „gerberki” - zdrowie
-* Gerber Pełnia Zbóż, kaszka manna z mlekiem, bez dodatku cukru, po 4 ...
-[https://gemini.pl/gerber-pelnia-zboz-kaszka-manna-z-mlekiem-bez-dodatku-cukru-po-4-miesiacu-200-g-0089147](https://gemini.pl/gerber-pelnia-zboz-kaszka-manna-z-mlekiem-bez-dodatku-cukru-po-4-miesiacu-200-g-0089147.html)
+* Kaszka czy kleik? Omijaj niezdrowe! - Pediatra Na Zdrowie
+[https://pediatranazdrowie.pl/kaszka-czy-kleik-omijaj-niezdrowe/](https://pediatranazdrowie.pl/kaszka-czy-kleik-omijaj-niezdrowe/.html)
 
-* Gerber Organic | Nestlé Baby&Me
-[https://www.zdrowystartwprzyszlosc.pl/gerber-organic-marka](https://www.zdrowystartwprzyszlosc.pl/gerber-organic-marka.html)
+* Kaszki bezmleczne - mleko i gotowe! | Nestlé Baby&me
+[https://www.zdrowystartwprzyszlosc.pl/kaszki-bezmleczne-wystarczy-dodac-mleko-i-gotowe](https://www.zdrowystartwprzyszlosc.pl/kaszki-bezmleczne-wystarczy-dodac-mleko-i-gotowe.html)
 
-* Kaszki dla dzieci - kaszki dla niemowląt | Gemini
-[https://gemini.pl/kategoria/dziecko/zywienie-dziecka/kaszki-i-kleiki](https://gemini.pl/kategoria/dziecko/zywienie-dziecka/kaszki-i-kleiki.html)
+## Kaszki, kleiki i „gerberki” - przepisy
+* Kleik z kaszy manny - przepis | WINIARY
+[https://www.winiary.pl/przepisy/kleik-z-kaszy-manny/](https://www.winiary.pl/przepisy/kleik-z-kaszy-manny/.html)
+
+* Dania z kaszy jaglanej - zobacz wszystkie 57 przepisów - Fajne Gotowanie
+[https://fajnegotowanie.pl/przepisy/tagi/dania-z-kaszy-jaglanej/](https://fajnegotowanie.pl/przepisy/tagi/dania-z-kaszy-jaglanej/.html)
 
 ## Kaszki, kleiki i „gerberki” - zakupy
-* Kleiki, kaszki, płatki, Żywność | Zakupy online z ... - Polski Koszyk
-[https://polskikoszyk.pl/zakupy/mama-i-dziecko/zywnosc/kleiki-kaszki-platki.html](https://polskikoszyk.pl/zakupy/mama-i-dziecko/zywnosc/kleiki-kaszki-platki.html.html)
-
 * Kaszki i kleiki - Drogeria Rossmann
 [https://www.rossmann.pl/kategoria/mama-i-dziecko/jedzenie-dla-dzieci/kaszki-i-kleiki,8485?Page=1&PageSize=24](https://www.rossmann.pl/kategoria/mama-i-dziecko/jedzenie-dla-dzieci/kaszki-i-kleiki,8485?Page=1&PageSize=24.html)
 
-* NESTLÉ GERBER Pełnia Zbóż kaszka mleczna, owsiano-pszenna, Jabłko ...
-[https://www.rossmann.pl/Produkt/Kaszki-i-kleiki/Nestle-Gerber-Pelnia-Zboz-kaszka-mleczna-owsiano-pszenna-Jablko-Marchewka-po-6m-cu-200-g,395471,8485](https://www.rossmann.pl/Produkt/Kaszki-i-kleiki/Nestle-Gerber-Pelnia-Zboz-kaszka-mleczna-owsiano-pszenna-Jablko-Marchewka-po-6m-cu-200-g,395471,8485.html)
+* Kleiki, kaszki, płatki, Żywność | Zakupy online z ... - Polski Koszyk
+[https://polskikoszyk.pl/zakupy/mama-i-dziecko/zywnosc/kleiki-kaszki-platki.html](https://polskikoszyk.pl/zakupy/mama-i-dziecko/zywnosc/kleiki-kaszki-platki.html.html)
 

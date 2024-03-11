@@ -4,32 +4,30 @@
 Źródło: [https://krolikiuzytkowe.blogspot.com/2013/01/gaazki-drzew.html](https://krolikiuzytkowe.blogspot.com/2013/01/gaazki-drzew.html)
 
 ## Gałązki drzew - gryzonie
-* Jak ukorzeniam gałązki drzew oraz aktualizacje - YouTube
-[https://www.youtube.com/watch?v=P0fJFNlnhYA](https://www.youtube.com/watch?v=P0fJFNlnhYA.html)
+* Jak prawidłowo karmić gryzonie? | ZooBranża - Zoologia Wiedza Szkolenia ...
+[https://zoobranza.com.pl/jak-prawidlowo-karmic-gryzonie/](https://zoobranza.com.pl/jak-prawidlowo-karmic-gryzonie/.html)
 
-* Jak przyciąć agrest - gałązka po gałązce? - YouTube
-[https://www.youtube.com/watch?v=rivMnDHpG7Q](https://www.youtube.com/watch?v=rivMnDHpG7Q.html)
-
-* Sadzonki zdrewniałe. Rozmnażamy krzewy z gałązek!
-[http://www.bezogrodek.com/2016/11/sadzonki-zdrewniale-rozmnazamy-krzewy.html](http://www.bezogrodek.com/2016/11/sadzonki-zdrewniale-rozmnazamy-krzewy.html.html)
+* Jaki rodzaj gałęzi można dać królikowi: jakie drzewa jedzą gałęzie ...
+[https://land.decorexpro.com/pl/kroliki/kakie-vetki-mozno-davat.html](https://land.decorexpro.com/pl/kroliki/kakie-vetki-mozno-davat.html.html)
 
 ## Gałązki drzew - zdrowie
-* Sadzonki zdrewniałe. Rozmnażamy krzewy z gałązek!
-[http://www.bezogrodek.com/2016/11/sadzonki-zdrewniale-rozmnazamy-krzewy.html](http://www.bezogrodek.com/2016/11/sadzonki-zdrewniale-rozmnazamy-krzewy.html.html)
+* Które gałązki są bezpieczne dla papug? - Mindly.pl
+[https://mindly.pl/zwierzeta,ac236/ktore-galazki-sa-bezpieczne-dla-papug,5404](https://mindly.pl/zwierzeta,ac236/ktore-galazki-sa-bezpieczne-dla-papug,5404.html)
 
-* Jak ukorzeniam gałązki drzew oraz aktualizacje - YouTube
-[https://www.youtube.com/watch?v=P0fJFNlnhYA](https://www.youtube.com/watch?v=P0fJFNlnhYA.html)
+* Rośliny lecznicze zbierane zimą | Naturalne Zdrowie
+[https://naturalnezdrowie.info/ziola-zbierane-zima](https://naturalnezdrowie.info/ziola-zbierane-zima.html)
 
-* Jak przyciąć agrest - gałązka po gałązce? - YouTube
-[https://www.youtube.com/watch?v=rivMnDHpG7Q](https://www.youtube.com/watch?v=rivMnDHpG7Q.html)
+## Gałązki drzew - przepisy
+* Jak prawidłowo przycinać gałęzie drzew? - Portal Gov.pl
+[https://www.gov.pl/web/gdos/jak-prawidlowo-przycinac-galezie-drzew](https://www.gov.pl/web/gdos/jak-prawidlowo-przycinac-galezie-drzew.html)
+
+* Przycinanie gałęzi drzew - przepisy, które obowiązują przy pielęgnacji ...
+[https://gizo.pl/blog/przycinanie-galezi-drzew-przepisy-ktore-obowiazuja-przy-pielegnacji-drzewostanu/](https://gizo.pl/blog/przycinanie-galezi-drzew-przepisy-ktore-obowiazuja-przy-pielegnacji-drzewostanu/.html)
 
 ## Gałązki drzew - zakupy
-* Jak ukorzeniam gałązki drzew oraz aktualizacje - YouTube
-[https://www.youtube.com/watch?v=P0fJFNlnhYA](https://www.youtube.com/watch?v=P0fJFNlnhYA.html)
+* Gałązki z Drzewa - Niska cena na Allegro.pl
+[https://allegro.pl/listing?string=gałązki z drzewa](https://allegro.pl/listing?string=gałązkizdrzewa.html)
 
-* Jak przyciąć agrest - gałązka po gałązce? - YouTube
-[https://www.youtube.com/watch?v=rivMnDHpG7Q](https://www.youtube.com/watch?v=rivMnDHpG7Q.html)
-
-* Sadzonki zdrewniałe. Rozmnażamy krzewy z gałązek!
-[http://www.bezogrodek.com/2016/11/sadzonki-zdrewniale-rozmnazamy-krzewy.html](http://www.bezogrodek.com/2016/11/sadzonki-zdrewniale-rozmnazamy-krzewy.html.html)
+* Sztuczne Gałązki Drzew - Niska cena na Allegro.pl
+[https://allegro.pl/listing?string=sztuczne gałązki drzew](https://allegro.pl/listing?string=sztucznegałązkidrzew.html)
 

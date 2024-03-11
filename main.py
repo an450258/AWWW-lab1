@@ -20,7 +20,7 @@ def read_page(url):
 
 
 def md_link(tag):
-    return "[" + tag.strip() + "]" + "(" + tag.replace(" ","") + ".html)\n\n"
+    return "[" + tag.strip() + "]" + "(" + tag.replace(" ","") + ".html)"
 
 
 def md_h1_title(text):
@@ -41,11 +41,11 @@ def md_source(source):
 
 # Wyniki wyszukiwania z dodaniem frazy "extra"
 def save_search_result(file, tag, extra):
-    tag_extra = DDGS().text(tag.text + extra, max_results=3)
+    tag_extra = DDGS().text(tag.text + " " + extra, max_results=2)
     file.write(md_h2_title(tag.text + " - " + extra))
     for el in tag_extra:
         file.write("* " + el['title'] + '\n')
-        file.write(md_link(el['href']))
+        file.write(md_link(el['href']) + "\n\n")
 
 
 def create_duckduckgo_subpage(tag):
@@ -58,6 +58,7 @@ def create_duckduckgo_subpage(tag):
 
         save_search_result(file, tag, "gryzonie")
         save_search_result(file, tag, "zdrowie")
+        save_search_result(file, tag, "przepisy")
         save_search_result(file, tag, "zakupy")
 
 
