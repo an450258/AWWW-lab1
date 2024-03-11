@@ -118,6 +118,6 @@ if __name__ == "__main__":
             lista_dieta = akapit_dieta.find_next_sibling('ul')
 
     # Utworzenie pliku z główną stroną
-    create_main_page(podtytul_dieta, akapit_dieta, lista_dieta, podtytul_zakazane, akapit_zakazane, lista_zakazane)
+    create_main_page(page_title, akapit_wstep, lista_dieta, podtytul_zakazane, akapit_zakazane, lista_zakazane)
 
 
